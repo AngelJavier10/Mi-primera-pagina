@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial, sans-serif';
+    background-color: rgba(255, 151, 248, 0.932);
+}
+.banner_fnaf6{
+    height: 405px;
+    width: 51%;
+    padding: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    background-color: #a70000;
+    padding: 17px;
+    color: rgb(251, 255, 0);
+}
+header:hover{
+    background-color: rgb(79, 83, 83);
+    color: rgb(255, 254, 254);
+}
+.BTN-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #a70000;
+    border-radius: 20px;
+    height: 300px;
+    width: 69px;
+    cursor: pointer;
+    transition: all .7s ease;
+    border-style: none;
+    max-width: 200%;
+    height: auto;
+    
+
+}  
+a{
+    text-decoration: none;
+}
+.BTN-inicio:hover{
+    background-color: #cdf009;
+    color: rgb(255, 0, 0);
+    padding: auto;
+}
+body {
+    background-image: url('./src/assets/Fondo_6.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.Introduccion_text {
+    
+    color: rgb(255, 255, 255);
+    border-radius: 19px;
+    background-color: rgb(224, 64, 64);
+    text-align: center;
+    border: 1px solid #555;
+    height: 216px;
+    width: 711px;
+
+}
+
+.Text {
+
+    background-color: rgb(68, 67, 67);
+    text-align: center;
+    height: 187px;
+    width: 710px;
+    padding: 15px;
+    
+   
+}
+
+.Jugabilidad_text{
+    color: rgb(255, 255, 255);
+    border-radius: 19px;
+    background-color: rgb(224, 64, 64);
+    text-align: center;
+    border: 1px solid #555;
+    height: 216px;
+    width: 711px;
+    padding: auto;
+}
+.Jugabilidad {
+
+    background-color: rgb(68, 67, 67);
+    text-align: center;
+    height: 187px;
+    width: 710px;
+    color: aliceblue;
+}
+.Catalogo img{
+    max-width: 100%;
+    height: auto;
+    height: 209px;
+    width: 320px;
+    padding: 13px;
+    flex-direction: row;
+    box-shadow: 0px 2px 5px;
+    transition: all .3s ease;
+    flex: 1 1 203px;
+
+}
+#section-catalogoMG {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px;
+}
+.ejemplo_png {
+    padding: 20px;
+    
+}
+
+.Personajes{
+    color: rgb(0, 0, 0);
+    border-radius: 19px;
+    background-color: rgb(229, 255, 0);
+    text-align: center;
+    border: 1px solid #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 11px;
+    height: 60px;
+}
+.img_Catalogo {
+    height: 399px;
+    width: 260px;
+    border-radius: 19px;
+    background-color: rgb(229, 255, 0);
+    display: flex; /*SUELTA LA IMAGEN*/
+    align-items: center; /*Mueve la imagen*/
+    justify-content: center; /*Mueve la imagen*/
+}
+.img_Catalogo img {
+    height: 307px;
+    width: 220px;
+
+}
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica 1 Hernandez</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <!--HEADER/NAVEGACION-->
+    <header>
+      <div>Angel Javier</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#aboutme">Quienes somos</a>
+          </li>
+          <li>
+            <a href="#section-productos">Productos</a>
+          </li>
+          <li>
+            <a href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <img class="banner" src="src/assets/portada_new.png" />
+
+    <!--DESCRIPCION PAGINA-->
+    <section class="descripcion">
+      <h1>Conceptos Basicos de HTML5</h1>
+      <p class="about-page">
+        Esta pagina esta diseñada como ejemplo de los conceptos basicos en HTML y Css
+      </p>
+    </section>
+
+    <!--SOBRE MI-->
+    <section class="aboutme" id="aboutme">
+      <h2>Cosas que me definen</h2>
+      <img class="yo" src="src/assets/yo bapo.png" alt="Yo" />
+      <ul>
+        <li>1.-Me gusta la programacion</li>
+        <li>2.- Soy alegre y amigable</li>
+        <li>3.- No me gustan los problemas</li>
+      </ul>
+    </section>
+
+    <!--Seccion "Catalogo de productos"-->
+    <section id="section-productos">
+      <div class="container-productos">
+        <div class="productos">
+          <img src="src/assets/fnaf1.jpeg" alt="Producto 1" />
+          <span class="title">Fnaf 1 </span>
+          <p class="description">descripcion</p>
+          <div>           
+            <button class="btn-comprar"><i class="fas fa-shopping-cart"></i> COMPRAR</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-productos">
+        <div class="productos">
+          <img src="src/assets/fnaf2.jpeg" alt="Producto 2" />
+          <span class="title">Fnaf 2</span>
+          <p class="description-product">descripcion</p>
+          <div>           
+            <button class="btn-comprar"><i class="fas fa-shopping-cart"></i> COMPRAR</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-productos">
+        <div class="productos">
+          <img src="src/assets/fnaf3.jpeg" alt="Producto 3" />
+          <hr>
+          <span class="title">Fnaf 3</span>
+          <p class="description">descripcion</p>
+          <div>           
+            <button class="btn-comprar"><i class="fas fa-shopping-cart"></i> COMPRAR</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-productos">
+        <div class="productos">
+          <img src="src/assets/fnaf4.webp" alt="Producto 3" />
+          <span class="title">Fnaf 4</span>
+          <p class="description">descripcion</p>
+          <div>           
+            <button class="btn-comprar"><i class="fas fa-shopping-cart"></i> COMPRAR</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-productos">
+        <div class="productos">
+          <img src="src/assets/fnaf5.jpeg" alt="Producto 3" />
+          <span class="title">Fnaf 5</span>
+          <p class="description">descripcion</p>
+          <div>           
+            <button class="btn-comprar"><i class="fas fa-shopping-cart"></i> COMPRAR</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-productos">
+        <div class="productos">
+          <img src="src/assets/fnaf6.png" alt="Producto 3" />
+          <span class="title">Fnaf 6</span>
+          <p class="description">descripcion</p>
+          <div>           
+            <button class="btn-comprar" onclick="window.location.href='fnaf5Local.html';">
+              <i class="fas fa-shopping-cart"></i> COMPRAR
+            </button>
+            
+
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!--Contacto-->
+    <section class="contact" id="contacto">
+      <h2>Contacto</h2>
+      <form action="" method="get">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" name="email" required />
+        <label for="comentarios">Comentarios (optional)</label>
+        <input type="text" name="comentarios" class="comentario" />
+      </form>
+      <div class="btn-container">
+        <button type="submit" class="btn">Enviar</button>
+      </div>
+    </section>
+  </body>
+</html>
